@@ -9,9 +9,9 @@ export const profile = {
   location: "Dhaka, Bangladesh",
   email: "gsmtem@gmail.com",
   phone: "+8801*********",
-  dob: "##/##/####",
+  dob: "--/--/----",
   nationality: "Bangladeshi",
-  resumeFile: "sultan_fw_resume.pdf",
+  resumeFile: "sultan_fw_resume_public.pdf",
   profileImage: "profile.jpg",
   socials: {
     github: "https://github.com/gsmrana",

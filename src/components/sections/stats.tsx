@@ -23,7 +23,7 @@ export function Stats() {
           <div className="card-base p-3 lg:col-span-2 flex items-center justify-center overflow-hidden">
             <img
               key={`gh-${k}`}
-              src={`https://github-readme-stats.vercel.app/api?username=${username}&show_icons=true&hide_border=true&theme=${ghTheme}&count_private=true`}
+              src={`https://github-readme-stats-gsmrana.vercel.app/api?username=${username}&show_icons=true&hide_border=true&theme=${ghTheme}&count_private=true`}
               alt="GitHub stats"
               loading="lazy"
               className="max-w-full"
@@ -41,7 +41,7 @@ export function Stats() {
           <div className="card-base p-3 lg:col-span-2 flex items-center justify-center overflow-hidden">
             <img
               key={`top-${k}`}
-              src={`https://github-readme-stats.vercel.app/api/top-langs/?username=${username}&layout=compact&hide_border=true&theme=${ghTheme}&langs_count=10`}
+              src={`https://github-readme-stats-gsmrana.vercel.app/api/top-langs/?username=${username}&layout=compact&hide_border=true&theme=${ghTheme}&langs_count=10`}
               alt="GitHub top languages"
               loading="lazy"
               className="max-w-full"

@@ -92,15 +92,6 @@ export function Hero() {
             </a>
             <div className="ml-1 flex items-center gap-2">
               <a
-                href={profile.socials.github}
-                target="_blank"
-                rel="noreferrer"
-                aria-label="GitHub"
-                className="inline-flex h-10 w-10 items-center justify-center rounded-md border border-border bg-secondary/50 text-foreground transition-colors hover:bg-secondary"
-              >
-                <Github className="h-4 w-4" />
-              </a>
-              <a
                 href={profile.socials.linkedin}
                 target="_blank"
                 rel="noreferrer"
@@ -108,6 +99,15 @@ export function Hero() {
                 className="inline-flex h-10 w-10 items-center justify-center rounded-md border border-border bg-secondary/50 text-foreground transition-colors hover:bg-secondary"
               >
                 <Linkedin className="h-4 w-4" />
+              </a>
+              <a
+                href={profile.socials.github}
+                target="_blank"
+                rel="noreferrer"
+                aria-label="GitHub"
+                className="inline-flex h-10 w-10 items-center justify-center rounded-md border border-border bg-secondary/50 text-foreground transition-colors hover:bg-secondary"
+              >
+                <Github className="h-4 w-4" />
               </a>
               <a
                 href={profile.socials.leetcode}
